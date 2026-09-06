@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Neon Ilon O'yini</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="title">Neon Ilon</div>
+  <div class="subtitle">Skorni yig'ib, o'zingga urilmasdan yashab qol</div>
+
+  <div class="hud">
+    <div class="stat score">SKOR: <span id="score">0</span></div>
+    <div class="stat">REKORD: <span id="highscore">0</span></div>
+  </div>
+
+  <div class="board-wrap">
+    <canvas id="game" width="400" height="400"></canvas>
+    <div class="overlay" id="overlay">
+      <h2>O'YINNI BOSHLASH</h2>
+      <p>Strelkalar yoki WASD bilan boshqar. Mevani yeb ilonni uzaytir, devor va o'ziga urilmasdan omon qol!</p>
+      <button class="play-btn" id="playBtn">Boshlash</button>
+    </div>
+  </div>
+
+  <div class="dpad">
+    <button id="up">▲</button>
+    <button id="left">◀</button>
+    <button id="right">▶</button>
+    <button id="down">▼</button>
+  </div>
+
+  <div class="controls-hint">Klaviatura: ↑ ↓ ← → yoki W A S D &nbsp;|&nbsp; Bo'shliq — pauza</div>
+
+  <script src="script.js"></script>
+</body>
+</html>
